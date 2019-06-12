@@ -30,13 +30,7 @@ Note: `2.x` contains breaking changes, please see the [changelog](https://github
 Using bundler, add to the `Gemfile`:
 
 ```ruby
-gem 'active_shipping'
-```
-
-Or stand alone:
-
-```
-$ gem install active_shipping
+gem 'active_shipping', git: 'https://github.com/sobonpiotr/active_shipping', branch: 'master'
 ```
 
 
